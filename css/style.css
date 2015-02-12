@@ -1,0 +1,74 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);	
+	-webkit-user-select:none;
+}
+body{
+	margin:0;
+	padding:0;
+}
+ul,li{
+	margin:0;
+	padding:0;
+	list-style:none;	
+}
+
+
+#wrap{
+	width:1024px;
+	height:768px;
+	overflow:hidden;
+	position:relative;
+}
+#day{
+	background:url(../images/B.jpg) no-repeat;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:1024px;
+	height:768px;
+	opacity:1;
+}
+#night{
+	background:url(../images/A.jpg) no-repeat;
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:1024px;
+	height:768px;
+	opacity:0;
+}
+#scroller_bg{
+	background:url(../images/bar.png) no-repeat;
+	width:22px;
+	height:275px;
+	position:absolute;
+	top:50px;
+	left:60px;
+}
+#scroller{
+	width:22px;
+	height:210px;
+	position:absolute;
+	top:67px;
+	left:60px;
+}
+#scroll{
+	background:url(../images/icon.png) no-repeat;
+	width:10px;
+	height:27px;
+	position:absolute;
+	top:0px;
+	left:6px;
+}
+#mask{
+	position: absolute;
+	top: 30px;
+	left: 45px;
+	width: 50px;
+	height: 305px;
+}
